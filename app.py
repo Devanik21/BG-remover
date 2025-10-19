@@ -231,7 +231,7 @@ def process_image(image_bytes, session_options):
 def display_image_card(image, caption, key_prefix):
     """Creates a styled card to display an image."""
     st.markdown(f'<div class="image-container">', unsafe_allow_html=True)
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
     st.markdown(f'<p class="image-caption">{caption}</p>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
