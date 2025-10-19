@@ -357,7 +357,6 @@ def main():
 # --- Run the App ---
 if __name__ == "__main__":
     # Check for default image and inform user if missing
-    if not os.path.exists("./zebra.jpg"):
-        st.warning("Default example image 'zebra.jpg' not found. Please upload an image to begin.")
+
     
     main()
